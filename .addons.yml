@@ -1,0 +1,7 @@
+---
+channel: stable
+addons:
+  tailscale:
+    repository: lmagyar/homeassistant-addon-test
+    target: tailscale
+    image: ghcr.io/homeassistant-apps/tailscale/{arch}
