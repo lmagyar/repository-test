@@ -1,4 +1,4 @@
-# Unofficial Home Assistant Apps (Add-Ons) Repository
+# Unofficial Home Assistant Apps (Add-ons) Repository
 
 ![Project Stage][project-stage-shield]
 ![Maintenance][maintenance-shield]
@@ -10,9 +10,6 @@ Home Assistant allows anyone to create add-on repositories to share their
 add-ons for Home Assistant easily. This repository is one of those repositories,
 providing extra Home Assistant add-ons for your installation.
 
-The primary goal of this repository is to provide an add-on to use Cloudflared.
-Additional add-ons might follow in the future.
-
 ## Installation
 
 Adding this add-ons repository to your Home Assistant instance is
@@ -22,49 +19,23 @@ a possibility to add a repository is provided.
 Use the following URL to add this repository:
 
 ```txt
-https://github.com/homeassistant-apps/repository
+https://github.com/lmagyar/repository-test
 ```
 
 ## Add-ons provided by this repository
 
-### &#10003; [Advanced Code Server][addon-code-server]
+### &#10003; [Tailscale with features][addon-tailscale]
 
-![Latest Version][code-server-version-shield]
-![Supports armhf Architecture][code-server-armhf-shield]
-![Supports armv7 Architecture][code-server-armv7-shield]
-![Supports aarch64 Architecture][code-server-aarch64-shield]
-![Supports amd64 Architecture][code-server-amd64-shield]
-![Supports i386 Architecture][code-server-i386-shield]
+![Latest Version][tailscale-version-shield]
+![Supports armhf Architecture][tailscale-armhf-shield]
+![Supports armv7 Architecture][tailscale-armv7-shield]
+![Supports aarch64 Architecture][tailscale-aarch64-shield]
+![Supports amd64 Architecture][tailscale-amd64-shield]
+![Supports i386 Architecture][tailscale-i386-shield]
 
-Code Server experience integrated in the Home Assistant frontend.
+Zero config VPN for building secure networks
 
-[:books: Advanced Code Server add-on documentation][addon-doc-code-server]
-
-### &#10003; [Cloudflared][addon-cloudflared]
-
-![Latest Version][cloudflared-version-shield]
-![Supports armhf Architecture][cloudflared-armhf-shield]
-![Supports armv7 Architecture][cloudflared-armv7-shield]
-![Supports aarch64 Architecture][cloudflared-aarch64-shield]
-![Supports amd64 Architecture][cloudflared-amd64-shield]
-![Supports i386 Architecture][cloudflared-i386-shield]
-
-Use a Cloudflare Tunnel to remotely connect to Home Assistant without opening any ports
-
-[:books: Cloudflared add-on documentation][addon-doc-cloudflared]
-
-### &#10003; [Newt][addon-newt]
-
-![Latest Version][newt-version-shield]
-![Supports armhf Architecture][newt-armhf-shield]
-![Supports armv7 Architecture][newt-armv7-shield]
-![Supports aarch64 Architecture][newt-aarch64-shield]
-![Supports amd64 Architecture][newt-amd64-shield]
-![Supports i386 Architecture][newt-i386-shield]
-
-Tunneling client to connect Home Assistant to Pangolin.
-
-[:books: Newt add-on documentation][addon-doc-newt]
+[:books: Tailscale with features add-on documentation][addon-doc-tailscale]
 
 ## Releases
 
@@ -84,9 +55,7 @@ Open an issue here on GitHub. Note, we use a separate
 GitHub repository for each add-on. Please ensure you are creating the issue
 on the correct GitHub repository matching the add-on.
 
-- [Open an issue for the add-on: Advanced Code Server][code-server-issue]
-- [Open an issue for the add-on: Cloudflared][cloudflared-issue]
-- [Open an issue for the add-on: Newt][newt-issue]
+- [Open an issue for the add-on: Tailscale with features][tailscale-issue]
 
 For a general repository issue or add-on ideas [open an issue here][issue]
 
@@ -114,37 +83,19 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[addon-code-server]: https://github.com/homeassistant-apps/app-code-server/tree/v2025.11.2
-[addon-doc-code-server]: https://github.com/homeassistant-apps/app-code-server/blob/v2025.11.2/README.md
-[code-server-issue]: https://github.com/homeassistant-apps/app-code-server/issues
-[code-server-version-shield]: https://img.shields.io/badge/version-v2025.11.2-blue.svg
-[code-server-aarch64-shield]: https://img.shields.io/badge/aarch64-no-red.svg
-[code-server-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[code-server-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
-[code-server-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
-[code-server-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-[addon-cloudflared]: https://github.com/brenner-tobias/addon-cloudflared/tree/v7.0.0
-[addon-doc-cloudflared]: https://github.com/brenner-tobias/addon-cloudflared/blob/v7.0.0/README.md
-[cloudflared-issue]: https://github.com/brenner-tobias/addon-cloudflared/issues
-[cloudflared-version-shield]: https://img.shields.io/badge/version-v7.0.0-blue.svg
-[cloudflared-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
-[cloudflared-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[cloudflared-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
-[cloudflared-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
-[cloudflared-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-[addon-newt]: https://github.com/homeassistant-apps/app-newt/tree/v2025.11.3
-[addon-doc-newt]: https://github.com/homeassistant-apps/app-newt/blob/v2025.11.3/README.md
-[newt-issue]: https://github.com/homeassistant-apps/app-newt/issues
-[newt-version-shield]: https://img.shields.io/badge/version-v2025.11.3-blue.svg
-[newt-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
-[newt-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[newt-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
-[newt-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
-[newt-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-[gitlabci-shield]: https://gitlab.com/homeassistant-apps/repository/badges/master/pipeline.svg
-[gitlabci]: https://gitlab.com/homeassistant-apps/repository/pipelines
-[issue]: https://github.com/homeassistant-apps/repository/issues
-[license-shield]: https://img.shields.io/github/license/homeassistant-apps/repository.svg
+[addon-tailscale]: https://github.com/lmagyar/homeassistant-addon-test/tree/v0.26.1.5
+[addon-doc-tailscale]: https://github.com/lmagyar/homeassistant-addon-test/blob/v0.26.1.5/README.md
+[tailscale-issue]: https://github.com/lmagyar/homeassistant-addon-test/issues
+[tailscale-version-shield]: https://img.shields.io/badge/version-v0.26.1.5-blue.svg
+[tailscale-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[tailscale-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[tailscale-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[tailscale-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[tailscale-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
+[gitlabci-shield]: https://gitlab.com/lmagyar/repository-test/badges/master/pipeline.svg
+[gitlabci]: https://gitlab.com/lmagyar/repository-test/pipelines
+[issue]: https://github.com/lmagyar/repository-test/issues
+[license-shield]: https://img.shields.io/github/license/lmagyar/repository-test.svg
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2025.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
 [semver]: http://semver.org/spec/v2.0.0.html
