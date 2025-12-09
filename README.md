@@ -83,10 +83,10 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[addon-tailscale]: https://github.com/lmagyar/homeassistant-addon-test/tree/v0.26.1.5
-[addon-doc-tailscale]: https://github.com/lmagyar/homeassistant-addon-test/blob/v0.26.1.5/README.md
+[addon-tailscale]: https://github.com/lmagyar/homeassistant-addon-test/tree/46e53c8
+[addon-doc-tailscale]: https://github.com/lmagyar/homeassistant-addon-test/blob/46e53c8/README.md
 [tailscale-issue]: https://github.com/lmagyar/homeassistant-addon-test/issues
-[tailscale-version-shield]: https://img.shields.io/badge/version-v0.26.1.5-blue.svg
+[tailscale-version-shield]: https://img.shields.io/badge/version-46e53c8-blue.svg
 [tailscale-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [tailscale-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [tailscale-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
